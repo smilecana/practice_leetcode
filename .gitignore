@@ -496,8 +496,9 @@ hs_err_pid*
 replay_pid*
 
 
-#Added folder
-**/.idea
-**/*.iml
-**/out
+#Arrays101
+/Arrays101/*.iml
+/Arrays101/.idea
+
+
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains,vs

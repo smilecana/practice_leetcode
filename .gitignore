@@ -473,9 +473,6 @@ MigrationBackup/
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -496,7 +493,7 @@ hs_err_pid*
 replay_pid*
 
 #practice_leetcode
-./idea
+.idea/
 
 
 #Arrays101

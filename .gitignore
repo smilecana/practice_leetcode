@@ -495,4 +495,9 @@ MigrationBackup/
 hs_err_pid*
 replay_pid*
 
+
+#Added folder
+**/.idea
+**/*.iml
+**/out
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains,vs

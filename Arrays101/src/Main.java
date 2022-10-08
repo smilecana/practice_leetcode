@@ -36,7 +36,7 @@ public class Main {
         // null
         // Star Wars, directed by George Lucas, released in 1977
 
-        int [] squareNumbers = new int[10];
+        int[] squareNumbers = new int[10];
 
         // Go throught each of the Array indexes, from 0 to 9.
         for (int i = 0; i < 10; i++) {
@@ -58,13 +58,13 @@ public class Main {
         // Prints exactly the same as the previous example.
 
         //Create a new array with a capacity of 6.
-        int []  array = new int[6];
+        int[] array = new int[6];
 
         // Current length is 0, because it has 0 elements.
 
         int length = 0;
 
-        for (int i = 0 ; i < 3; i++) {
+        for (int i = 0; i < 3; i++) {
             array[i] = i * i;
             // Each time we add an element, the length goes up by one.
             length++;
@@ -72,13 +72,25 @@ public class Main {
         System.out.println("The Array has a capacity of " + array.length);
         System.out.println("The Array has a capacity of " + length);
 
-
         //Q1 Max Consecutive Ones
         //https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/3238/
         //Q2 Find Numbers with Even Number
         //https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/3237/
         //Q3 Squared of a Sorted Array (Two Pointer)
         //https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/3240/
-
+        //Q4 Duplicate Zeros
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/
+        //Q5 Merge Sorted Array
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
+        /*
+            public void merge(int[] nums1, int m, int[] nums2, int n) {
+              int position = m + n - 1 ;   // 5
+              m--;
+              n--;
+              while (n >= 0){
+                nums1[position--] = (nums1[m] > nums2[n])?  nums1[m--] : nums2[n--];
+              }
+            }
+        */
     }
 }

@@ -92,5 +92,15 @@ public class Main {
               }
             }
         */
+        //Q6 Remove Element
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
+        //Q7 Remove Duplicates from Sorted Array
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
+        //Q8 Check If N and Its Double Exist
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/
+        //Q9 Valid Mountain Array
+        //https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
+        //Q10 Replace Elements with Greatest Element on Right Side
+
     }
 }
